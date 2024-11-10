@@ -1,30 +1,33 @@
 {
   "name": "deeplx-serverless",
-  "version": "1.1.0",
-  "description": "DeepLX Free API for serverless",
+  "version": "2.1.0",
+  "description": "DeepL free API for Serverless",
   "type": "module",
   "main": "server.js",
   "engines": {
-    "node": ">=16.13"
+    "node": ">=18"
   },
   "scripts": {
     "start": "node server.js",
     "test": "node test.js"
   },
   "keywords": [
+    "deeplxs",
     "deeplx",
     "deepl",
     "translate",
     "serverless"
   ],
-  "license": "AGPLv3",
+  "license": "AGPL-3.0",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "axios": "^1.6.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "lodash": "^4.17.21",
     "node-fetch": "^3.3.2",
-    "random-int": "^3.0.0"
+    "random-int": "^3.0.0",
+    "yargs": "^17.7.2"
   }
 }
